@@ -28,7 +28,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.7",
           lokasi: "Bandung",
-          img: "https://images.unsplash.com/photo-1589310243389-96a5483213a8?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/1200x/d8/db/84/d8db84505faf5b0515e592d5253a6738.jpg?auto=format&fit=crop&w=400&q=80",
         },
         {
           nama: "Kaos Polo Pria",
@@ -36,7 +36,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.8",
           lokasi: "Jakarta",
-          img: "https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/1200x/20/e5/5e/20e55e578dde7ceea39c49e06c64327c.jpg?auto=format&fit=crop&w=400&q=80",
         },
         {
           nama: "Kaos Oblong Pria",
@@ -52,7 +52,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.9",
           lokasi: "Jakarta",
-          img: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/736x/1c/16/d4/1c16d48bf228805955e47842b8b27492.jpg?auto=format&fit=crop&w=400&q=80",
         },
         {
           nama: "Sweater Pria",
@@ -60,7 +60,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.7",
           lokasi: "Bandung",
-          img: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/1200x/bd/ec/f1/bdecf1c337c914d37e2dfc2d1719a609.jpg?auto=format&fit=crop&w=400&q=80",
         },
       ],
     },
@@ -77,7 +77,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.9",
           lokasi: "Bandung",
-          img: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/736x/01/66/7c/01667cb2b8b301793ff634764d6adf32.jpg?auto=format&fit=crop&w=400&q=80",
         },
         {
           nama: "Blouse Wanita",
@@ -85,7 +85,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.7",
           lokasi: "Bandung",
-          img: "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/736x/ec/26/9e/ec269ee753e6daefe6dfba4fc12ae5d8.jpg?auto=format&fit=crop&w=400&q=80",
         },
         {
           nama: "Gamis Wanita",
@@ -93,7 +93,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.8",
           lokasi: "Solo",
-          img: "https://images.pexels.com/photos/7679444/pexels-photo-7679444.jpeg?auto=compress&cs=tinysrgb&w=400",
+          img: "https://i.pinimg.com/736x/de/c6/65/dec665aced8585c3fce2f98ee1041bbb.jpg?auto=compress&cs=tinysrgb&w=400",
         },
         {
           nama: "Kebaya Wanita",
@@ -101,7 +101,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "5.0",
           lokasi: "Solo",
-          img: "https://images.pexels.com/photos/32394195/pexels-photo-32394195.jpeg?auto=compress&cs=tinysrgb&w=400",
+          img: "https://i.pinimg.com/736x/49/29/2a/49292a373ab7a99772bb41be44e1cede.jpg?auto=compress&cs=tinysrgb&w=400",
         },
         {
           nama: "Kaos Wanita",
@@ -109,7 +109,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.6",
           lokasi: "Bandung",
-          img: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/1200x/2e/15/bb/2e15bbf20b802f71f19fa9946589ee36.jpg?auto=format&fit=crop&w=400&q=80",
         },
         {
           nama: "Rok Plisket Wanita",
@@ -117,7 +117,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.8",
           lokasi: "Bandung",
-          img: "https://images.unsplash.com/photo-1583496661160-fb5886a13d44?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/736x/87/84/9b/87849b59df1e795bc2951e00452d0e1e.jpg?auto=format&fit=crop&w=400&q=80",
         },
       ],
     },
@@ -134,7 +134,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.8",
           lokasi: "Jakarta",
-          img: "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/1200x/0b/19/d3/0b19d3e2498c8ded54e395492cf45b82.jpg?auto=format&fit=crop&w=400&q=80",
         },
         {
           nama: "Jeans Pria Regular",
@@ -142,7 +142,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.7",
           lokasi: "Jakarta",
-          img: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/1200x/ab/bf/af/abbfaf321d40514cbc820856d2da12ed.jpg?auto=format&fit=crop&w=400&q=80",
         },
         {
           nama: "Jeans Wanita Skinny",
@@ -150,7 +150,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.8",
           lokasi: "Bandung",
-          img: "https://images.unsplash.com/photo-1604176354204-9268737828e4?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/736x/aa/03/7d/aa037d5c88ac2792087d47ca0b1d55dc.jpg?auto=format&fit=crop&w=400&q=80",
         },
         {
           nama: "Jeans Wanita Boyfriend",
@@ -158,7 +158,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.7",
           lokasi: "Bandung",
-          img: "https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/736x/24/b1/f7/24b1f742e0baed108b360a5ec3fba10d.jpg?auto=format&fit=crop&w=400&q=80",
         },
         {
           nama: "Jeans Pria Distro",
@@ -166,7 +166,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.9",
           lokasi: "Jakarta",
-          img: "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/1200x/f4/6b/51/f46b51217abecd60bc1fc63503cbe883.jpg?auto=format&fit=crop&w=400&q=80",
         },
         {
           nama: "Jeans Wanita High Waist",
@@ -174,7 +174,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.8",
           lokasi: "Bandung",
-          img: "https://images.unsplash.com/photo-1598554747436-c9293d6a588f?auto=format&fit=crop&w=400&q=80",
+          img: "https://i.pinimg.com/1200x/f6/6b/fb/f66bfb75c61e0db3eee93e7bae74ca1b.jpg?auto=format&fit=crop&w=400&q=80",
         },
       ],
     },
@@ -191,7 +191,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.9",
           lokasi: "Yogyakarta",
-          img: "https://images.pexels.com/photos/30506062/pexels-photo-30506062.jpeg?auto=compress&cs=tinysrgb&w=400",
+          img: "https://i.pinimg.com/1200x/1a/98/2e/1a982e6570ab71b563ca84c095a66608.jpg?auto=compress&cs=tinysrgb&w=400",
         },
         {
           nama: "Batik Pria Lengan Pendek",
@@ -199,7 +199,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.8",
           lokasi: "Yogyakarta",
-          img: "https://images.pexels.com/photos/6046186/pexels-photo-6046186.jpeg?auto=compress&cs=tinysrgb&w=400",
+          img: "https://i.pinimg.com/1200x/ff/09/86/ff0986a4de143165d8c07b99cb30eb7e.jpg?auto=compress&cs=tinysrgb&w=400",
         },
         {
           nama: "Batik Wanita Kemeja",
@@ -207,7 +207,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.8",
           lokasi: "Solo",
-          img: "https://images.pexels.com/photos/6286834/pexels-photo-6286834.jpeg?auto=compress&cs=tinysrgb&w=400",
+          img: "https://i.pinimg.com/736x/32/bc/b5/32bcb511be0efd2fd8a4b7fdcecf5fde.jpg?auto=compress&cs=tinysrgb&w=400",
         },
         {
           nama: "Batik Wanita Dress",
@@ -215,7 +215,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.9",
           lokasi: "Solo",
-          img: "https://images.pexels.com/photos/4937224/pexels-photo-4937224.jpeg?auto=compress&cs=tinysrgb&w=400",
+          img: "https://i.pinimg.com/1200x/ce/31/1a/ce311aed2846f513c58023c921a8068a.jpg?auto=compress&cs=tinysrgb&w=400",
         },
         {
           nama: "Batik Couple",
@@ -223,7 +223,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "5.0",
           lokasi: "Yogyakarta",
-          img: "https://images.pexels.com/photos/30506062/pexels-photo-30506062.jpeg?auto=compress&cs=tinysrgb&w=400",
+          img: "https://i.pinimg.com/736x/19/37/24/193724f506ad0af65bd7555ee997f4ba.jpg?auto=compress&cs=tinysrgb&w=400",
         },
         {
           nama: "Kain Batik Premium",
@@ -231,7 +231,7 @@ const PRODUCTS = {
           satuan: "/paket",
           rating: "4.9",
           lokasi: "Solo",
-          img: "https://images.pexels.com/photos/6046186/pexels-photo-6046186.jpeg?auto=compress&cs=tinysrgb&w=400",
+          img: "https://i.pinimg.com/736x/23/67/06/2367067ac22f7c5ed543cb804f582fb3.jpg?auto=compress&cs=tinysrgb&w=400",
         },
       ],
     },
@@ -443,10 +443,10 @@ document.addEventListener("DOMContentLoaded", () => {
       const card = e.target.closest(".product-card");
       if (card) {
         // Simpan produk yang dipilih ke localStorage untuk simulasi
-        localStorage.setItem('selected_product', card.dataset.produk);
-        localStorage.setItem('selected_price', card.dataset.harga);
+        localStorage.setItem("selected_product", card.dataset.produk);
+        localStorage.setItem("selected_price", card.dataset.harga);
         // Arahkan ke halaman checkout
-        window.location.href = 'checkout.html';
+        window.location.href = "checkout.html";
       }
     });
 

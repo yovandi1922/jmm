@@ -5,16 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pembayaran — Jenira Grosir Mode</title>
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
     <!-- NAVBAR -->
     <nav class="navbar">
       <div class="container">
-        <a href="index.html" class="logo"><span class="dot"></span>Jenira Grosir Mode</a>
+        <a href="index.html" class="logo"
+          ><span class="dot"></span>Jenira Grosir Mode</a
+        >
         <form class="search-bar" id="searchForm" role="search">
-          <input type="text" id="searchInput" placeholder="Cari baju pria, wanita, jeans, batik..." />
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Cari baju pria, wanita, jeans, batik..."
+          />
           <button type="submit" aria-label="Cari">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            >
               <circle cx="11" cy="11" r="7"></circle>
               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
@@ -26,7 +43,13 @@
           <li><a href="tentang.html">Tentang Kami</a></li>
         </ul>
         <button class="hamburger" id="hamburger" aria-label="Menu">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+          >
             <line x1="3" y1="6" x2="21" y2="6"></line>
             <line x1="3" y1="12" x2="21" y2="12"></line>
             <line x1="3" y1="18" x2="21" y2="18"></line>
@@ -47,32 +70,72 @@
     <!-- BREADCRUMB -->
     <div class="container">
       <div class="breadcrumb">
-        <a href="index.html">Beranda</a><span>/</span><a href="checkout.html">Checkout</a><span>/</span>Pembayaran
+        <a href="index.html">Beranda</a><span>/</span
+        ><a href="checkout.html">Checkout</a><span>/</span>Pembayaran
       </div>
     </div>
 
     <!-- CONTENT -->
-    <section style="padding-top: 20px;">
+    <section style="padding-top: 20px">
       <div class="container">
         <div class="invoice-box">
           <h2>Tagihan Pembayaran</h2>
           <div class="invoice-id" id="invoiceId">INV-XXXXXX</div>
-          
+
           <div class="invoice-details">
             <p><span>Nama Pemesan:</span> <strong id="detailNama">-</strong></p>
             <p><span>No. WhatsApp:</span> <strong id="detailWa">-</strong></p>
-            <p><span>Alamat Pengiriman:</span> <strong id="detailAlamat" style="text-align: right; max-width: 200px;">-</strong></p>
-            <p style="border-top: 1px solid var(--border); padding-top: 10px; margin-top: 10px;"><span>Total Tagihan:</span> <strong style="color: var(--accent); font-size: 1.2rem;">Rp 6.000.000</strong></p>
+            <p>
+              <span>Alamat Pengiriman:</span>
+              <strong
+                id="detailAlamat"
+                style="text-align: right; max-width: 200px"
+                >-</strong
+              >
+            </p>
+            <p
+              style="
+                border-top: 1px solid var(--border);
+                padding-top: 10px;
+                margin-top: 10px;
+              "
+            >
+              <span>Total Tagihan:</span>
+              <strong style="color: var(--accent); font-size: 1.2rem"
+                >Rp 6.000.000</strong
+              >
+            </p>
           </div>
 
-          <div style="text-align: left; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 20px; margin-bottom: 30px;">
-            <h4 style="margin-bottom: 15px; font-size: 1rem;">Metode Pembayaran:</h4>
-            <p style="margin-bottom: 8px;">🏦 <strong>Bank BCA</strong> - 1234567890 (a.n. Jenira Mode)</p>
-            <p style="margin-bottom: 8px;">🏦 <strong>Bank Mandiri</strong> - 0987654321 (a.n. Jenira Mode)</p>
-            <p style="margin-bottom: 0;">📱 <strong>E-Wallet (Dana/OVO/GoPay)</strong> - 08123456789</p>
+          <div
+            style="
+              text-align: left;
+              background: var(--surface);
+              border: 1px solid var(--border);
+              border-radius: 8px;
+              padding: 20px;
+              margin-bottom: 30px;
+            "
+          >
+            <h4 style="margin-bottom: 15px; font-size: 1rem">
+              Metode Pembayaran:
+            </h4>
+            <p style="margin-bottom: 8px">
+              🏦 <strong>Bank BCA</strong> - 1234567890 (a.n. Jenira Mode)
+            </p>
+            <p style="margin-bottom: 8px">
+              🏦 <strong>Bank Mandiri</strong> - 0987654321 (a.n. Jenira Mode)
+            </p>
+            <p style="margin-bottom: 0">
+              📱 <strong>E-Wallet (Dana/OVO/GoPay)</strong> - 08123456789
+            </p>
           </div>
 
-          <button type="button" class="btn btn-accent btn-block" onclick="konfirmasiPembayaran()">
+          <button
+            type="button"
+            class="btn btn-accent btn-block"
+            onclick="konfirmasiPembayaran()"
+          >
             Saya Sudah Bayar / Konfirmasi
           </button>
         </div>
@@ -84,13 +147,27 @@
       <div class="container">
         <div class="footer-top">
           <div>
-            <a href="index.html" class="logo"><span class="dot"></span>Jenira Grosir Mode</a>
-            <p>Grosir fashion terpercaya — menyediakan baju pria, wanita, celana jeans, dan batik berkualitas dengan harga grosir untuk pelanggan seluruh Indonesia.</p>
+            <a href="index.html" class="logo"
+              ><span class="dot"></span>Jenira Grosir Mode</a
+            >
+            <p>
+              Grosir fashion terpercaya — menyediakan baju pria, wanita, celana
+              jeans, dan batik berkualitas dengan harga grosir untuk pelanggan
+              seluruh Indonesia.
+            </p>
           </div>
           <div class="footer-col">
             <h5>Alamat Kami</h5>
-            <address style="font-style: normal; opacity: 0.8; font-size: 0.9rem; line-height: 1.6;">
-              Jl. Majapahit, Wonocatur<br />Kec. Banguntapan, Kab. Bantul<br />(Ringroad Timur)<br />Daerah Istimewa Yogyakarta 55198
+            <address
+              style="
+                font-style: normal;
+                opacity: 0.8;
+                font-size: 0.9rem;
+                line-height: 1.6;
+              "
+            >
+              Jl. Majapahit, Wonocatur<br />Kec. Banguntapan, Kab. Bantul<br />(Ringroad
+              Timur)<br />Daerah Istimewa Yogyakarta 55198
             </address>
           </div>
           <div class="footer-col">
@@ -116,28 +193,32 @@
     </footer>
 
     <a href="#" class="wa-float" id="waFloat" aria-label="Chat WhatsApp">
-      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.87 9.87 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2z"/></svg>
+      <svg viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.87 9.87 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2z"
+        />
+      </svg>
     </a>
 
     <script src="script.js"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', () => {
-        const nama = localStorage.getItem('checkout_nama') || 'Pelanggan';
-        const wa = localStorage.getItem('checkout_wa') || '-';
-        const alamat = localStorage.getItem('checkout_alamat') || '-';
-        
-        document.getElementById('detailNama').textContent = nama;
-        document.getElementById('detailWa').textContent = wa;
-        document.getElementById('detailAlamat').textContent = alamat;
+      document.addEventListener("DOMContentLoaded", () => {
+        const nama = localStorage.getItem("checkout_nama") || "Pelanggan";
+        const wa = localStorage.getItem("checkout_wa") || "-";
+        const alamat = localStorage.getItem("checkout_alamat") || "-";
 
-        const randomId = 'INV-' + Math.floor(100000 + Math.random() * 900000);
-        document.getElementById('invoiceId').textContent = randomId;
-        localStorage.setItem('invoice_id', randomId);
+        document.getElementById("detailNama").textContent = nama;
+        document.getElementById("detailWa").textContent = wa;
+        document.getElementById("detailAlamat").textContent = alamat;
+
+        const randomId = "INV-" + Math.floor(100000 + Math.random() * 900000);
+        document.getElementById("invoiceId").textContent = randomId;
+        localStorage.setItem("invoice_id", randomId);
       });
 
       function konfirmasiPembayaran() {
         alert("Terima kasih! Pembayaran Anda sedang diverifikasi oleh admin.");
-        window.location.href = 'confirm.html';
+        window.location.href = "confirm.html";
       }
     </script>
   </body>
