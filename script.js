@@ -1,6 +1,5 @@
 /* =========================================================
    Jenira Grosir Mode — script.js
-   Grosir Baju Pria, Wanita, Jeans & Batik
    ========================================================= */
 
 const WA_NUMBER = "6289681827536";
@@ -14,54 +13,12 @@ const PRODUCTS = {
     desc: "Grosir baju pria berkualitas — kemeja, kaos, polo, sweater, dan lainnya. Harga khusus untuk reseller, toko, dan konveksi.",
     subgroups: {
       "Kemeja & Kaos Pria": [
-        {
-          nama: "Kemeja Formal Pria",
-          harga: "Rp 2.500.000",
-          satuan: "/paket",
-          rating: "4.8",
-          lokasi: "Bandung",
-          img: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Kemeja Flanel Pria",
-          harga: "Rp 2.800.000",
-          satuan: "/paket",
-          rating: "4.7",
-          lokasi: "Bandung",
-          img: "https://i.pinimg.com/1200x/d8/db/84/d8db84505faf5b0515e592d5253a6738.jpg?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Kaos Polo Pria",
-          harga: "Rp 2.200.000",
-          satuan: "/paket",
-          rating: "4.8",
-          lokasi: "Jakarta",
-          img: "https://i.pinimg.com/1200x/20/e5/5e/20e55e578dde7ceea39c49e06c64327c.jpg?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Kaos Oblong Pria",
-          harga: "Rp 1.800.000",
-          satuan: "/paket",
-          rating: "4.6",
-          lokasi: "Bandung",
-          img: "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Kemeja Denim Pria",
-          harga: "Rp 3.000.000",
-          satuan: "/paket",
-          rating: "4.9",
-          lokasi: "Jakarta",
-          img: "https://i.pinimg.com/736x/1c/16/d4/1c16d48bf228805955e47842b8b27492.jpg?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Sweater Pria",
-          harga: "Rp 3.200.000",
-          satuan: "/paket",
-          rating: "4.7",
-          lokasi: "Bandung",
-          img: "https://i.pinimg.com/1200x/bd/ec/f1/bdecf1c337c914d37e2dfc2d1719a609.jpg?auto=format&fit=crop&w=400&q=80",
-        },
+        { nama: "Kemeja Formal Pria", harga: "Rp 2.500.000", satuan: "/paket", rating: "4.8", lokasi: "Bandung", img: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Kemeja Flanel Pria", harga: "Rp 2.800.000", satuan: "/paket", rating: "4.7", lokasi: "Bandung", img: "https://i.pinimg.com/1200x/d8/db/84/d8db84505faf5b0515e592d5253a6738.jpg?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Kaos Polo Pria", harga: "Rp 2.200.000", satuan: "/paket", rating: "4.8", lokasi: "Jakarta", img: "https://i.pinimg.com/1200x/20/e5/5e/20e55e578dde7ceea39c49e06c64327c.jpg?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Kaos Oblong Pria", harga: "Rp 1.800.000", satuan: "/paket", rating: "4.6", lokasi: "Bandung", img: "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Kemeja Denim Pria", harga: "Rp 3.000.000", satuan: "/paket", rating: "4.9", lokasi: "Jakarta", img: "https://i.pinimg.com/736x/1c/16/d4/1c16d48bf228805955e47842b8b27492.jpg?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Sweater Pria", harga: "Rp 3.200.000", satuan: "/paket", rating: "4.7", lokasi: "Bandung", img: "https://i.pinimg.com/1200x/bd/ec/f1/bdecf1c337c914d37e2dfc2d1719a609.jpg?auto=format&fit=crop&w=400&q=80" },
       ],
     },
   },
@@ -71,54 +28,12 @@ const PRODUCTS = {
     desc: "Grosir baju wanita berkualitas — dress, blouse, gamis, kebaya, dan lainnya. Model terkini, bahan adem.",
     subgroups: {
       "Dress & Blouse": [
-        {
-          nama: "Dress Midi Wanita",
-          harga: "Rp 2.800.000",
-          satuan: "/paket",
-          rating: "4.9",
-          lokasi: "Bandung",
-          img: "https://i.pinimg.com/736x/01/66/7c/01667cb2b8b301793ff634764d6adf32.jpg?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Blouse Wanita",
-          harga: "Rp 2.400.000",
-          satuan: "/paket",
-          rating: "4.7",
-          lokasi: "Bandung",
-          img: "https://i.pinimg.com/736x/ec/26/9e/ec269ee753e6daefe6dfba4fc12ae5d8.jpg?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Gamis Wanita",
-          harga: "Rp 3.500.000",
-          satuan: "/paket",
-          rating: "4.8",
-          lokasi: "Solo",
-          img: "https://i.pinimg.com/736x/de/c6/65/dec665aced8585c3fce2f98ee1041bbb.jpg?auto=compress&cs=tinysrgb&w=400",
-        },
-        {
-          nama: "Kebaya Wanita",
-          harga: "Rp 4.500.000",
-          satuan: "/paket",
-          rating: "5.0",
-          lokasi: "Solo",
-          img: "https://i.pinimg.com/736x/49/29/2a/49292a373ab7a99772bb41be44e1cede.jpg?auto=compress&cs=tinysrgb&w=400",
-        },
-        {
-          nama: "Kaos Wanita",
-          harga: "Rp 1.800.000",
-          satuan: "/paket",
-          rating: "4.6",
-          lokasi: "Bandung",
-          img: "https://i.pinimg.com/1200x/2e/15/bb/2e15bbf20b802f71f19fa9946589ee36.jpg?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Rok Plisket Wanita",
-          harga: "Rp 2.200.000",
-          satuan: "/paket",
-          rating: "4.8",
-          lokasi: "Bandung",
-          img: "https://i.pinimg.com/736x/87/84/9b/87849b59df1e795bc2951e00452d0e1e.jpg?auto=format&fit=crop&w=400&q=80",
-        },
+        { nama: "Dress Midi Wanita", harga: "Rp 2.800.000", satuan: "/paket", rating: "4.9", lokasi: "Bandung", img: "https://i.pinimg.com/736x/01/66/7c/01667cb2b8b301793ff634764d6adf32.jpg?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Blouse Wanita", harga: "Rp 2.400.000", satuan: "/paket", rating: "4.7", lokasi: "Bandung", img: "https://i.pinimg.com/736x/ec/26/9e/ec269ee753e6daefe6dfba4fc12ae5d8.jpg?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Gamis Wanita", harga: "Rp 3.500.000", satuan: "/paket", rating: "4.8", lokasi: "Solo", img: "https://i.pinimg.com/736x/de/c6/65/dec665aced8585c3fce2f98ee1041bbb.jpg?auto=compress&cs=tinysrgb&w=400" },
+        { nama: "Kebaya Wanita", harga: "Rp 4.500.000", satuan: "/paket", rating: "5.0", lokasi: "Solo", img: "https://i.pinimg.com/736x/49/29/2a/49292a373ab7a99772bb41be44e1cede.jpg?auto=compress&cs=tinysrgb&w=400" },
+        { nama: "Kaos Wanita", harga: "Rp 1.800.000", satuan: "/paket", rating: "4.6", lokasi: "Bandung", img: "https://i.pinimg.com/1200x/2e/15/bb/2e15bbf20b802f71f19fa9946589ee36.jpg?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Rok Plisket Wanita", harga: "Rp 2.200.000", satuan: "/paket", rating: "4.8", lokasi: "Bandung", img: "https://i.pinimg.com/736x/87/84/9b/87849b59df1e795bc2951e00452d0e1e.jpg?auto=format&fit=crop&w=400&q=80" },
       ],
     },
   },
@@ -128,54 +43,12 @@ const PRODUCTS = {
     desc: "Grosir celana jeans pria & wanita — slim fit, regular, skinny, boyfriend, high waist. Bahan tebal, tidak mudah pudar.",
     subgroups: {
       "Jeans Pria & Wanita": [
-        {
-          nama: "Jeans Pria Slim Fit",
-          harga: "Rp 3.500.000",
-          satuan: "/paket",
-          rating: "4.8",
-          lokasi: "Jakarta",
-          img: "https://i.pinimg.com/1200x/0b/19/d3/0b19d3e2498c8ded54e395492cf45b82.jpg?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Jeans Pria Regular",
-          harga: "Rp 3.500.000",
-          satuan: "/paket",
-          rating: "4.7",
-          lokasi: "Jakarta",
-          img: "https://i.pinimg.com/1200x/ab/bf/af/abbfaf321d40514cbc820856d2da12ed.jpg?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Jeans Wanita Skinny",
-          harga: "Rp 3.200.000",
-          satuan: "/paket",
-          rating: "4.8",
-          lokasi: "Bandung",
-          img: "https://i.pinimg.com/736x/aa/03/7d/aa037d5c88ac2792087d47ca0b1d55dc.jpg?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Jeans Wanita Boyfriend",
-          harga: "Rp 3.200.000",
-          satuan: "/paket",
-          rating: "4.7",
-          lokasi: "Bandung",
-          img: "https://i.pinimg.com/736x/24/b1/f7/24b1f742e0baed108b360a5ec3fba10d.jpg?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Jeans Pria Distro",
-          harga: "Rp 4.000.000",
-          satuan: "/paket",
-          rating: "4.9",
-          lokasi: "Jakarta",
-          img: "https://i.pinimg.com/1200x/f4/6b/51/f46b51217abecd60bc1fc63503cbe883.jpg?auto=format&fit=crop&w=400&q=80",
-        },
-        {
-          nama: "Jeans Wanita High Waist",
-          harga: "Rp 3.400.000",
-          satuan: "/paket",
-          rating: "4.8",
-          lokasi: "Bandung",
-          img: "https://i.pinimg.com/1200x/f6/6b/fb/f66bfb75c61e0db3eee93e7bae74ca1b.jpg?auto=format&fit=crop&w=400&q=80",
-        },
+        { nama: "Jeans Pria Slim Fit", harga: "Rp 3.500.000", satuan: "/paket", rating: "4.8", lokasi: "Jakarta", img: "https://i.pinimg.com/1200x/0b/19/d3/0b19d3e2498c8ded54e395492cf45b82.jpg?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Jeans Pria Regular", harga: "Rp 3.500.000", satuan: "/paket", rating: "4.7", lokasi: "Jakarta", img: "https://i.pinimg.com/1200x/ab/bf/af/abbfaf321d40514cbc820856d2da12ed.jpg?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Jeans Wanita Skinny", harga: "Rp 3.200.000", satuan: "/paket", rating: "4.8", lokasi: "Bandung", img: "https://i.pinimg.com/736x/aa/03/7d/aa037d5c88ac2792087d47ca0b1d55dc.jpg?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Jeans Wanita Boyfriend", harga: "Rp 3.200.000", satuan: "/paket", rating: "4.7", lokasi: "Bandung", img: "https://i.pinimg.com/736x/24/b1/f7/24b1f742e0baed108b360a5ec3fba10d.jpg?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Jeans Pria Distro", harga: "Rp 4.000.000", satuan: "/paket", rating: "4.9", lokasi: "Jakarta", img: "https://i.pinimg.com/1200x/f4/6b/51/f46b51217abecd60bc1fc63503cbe883.jpg?auto=format&fit=crop&w=400&q=80" },
+        { nama: "Jeans Wanita High Waist", harga: "Rp 3.400.000", satuan: "/paket", rating: "4.8", lokasi: "Bandung", img: "https://i.pinimg.com/1200x/f6/6b/fb/f66bfb75c61e0db3eee93e7bae74ca1b.jpg?auto=format&fit=crop&w=400&q=80" },
       ],
     },
   },
@@ -185,58 +58,54 @@ const PRODUCTS = {
     desc: "Grosir batik pria, wanita, couple, dan kain batik premium. Motif halus, bahan nyaman, cocok untuk seragam dan koleksi.",
     subgroups: {
       "Batik Pria & Wanita": [
-        {
-          nama: "Batik Pria Lengan Panjang",
-          harga: "Rp 4.500.000",
-          satuan: "/paket",
-          rating: "4.9",
-          lokasi: "Yogyakarta",
-          img: "https://i.pinimg.com/1200x/1a/98/2e/1a982e6570ab71b563ca84c095a66608.jpg?auto=compress&cs=tinysrgb&w=400",
-        },
-        {
-          nama: "Batik Pria Lengan Pendek",
-          harga: "Rp 4.000.000",
-          satuan: "/paket",
-          rating: "4.8",
-          lokasi: "Yogyakarta",
-          img: "https://i.pinimg.com/1200x/ff/09/86/ff0986a4de143165d8c07b99cb30eb7e.jpg?auto=compress&cs=tinysrgb&w=400",
-        },
-        {
-          nama: "Batik Wanita Kemeja",
-          harga: "Rp 4.200.000",
-          satuan: "/paket",
-          rating: "4.8",
-          lokasi: "Solo",
-          img: "https://i.pinimg.com/736x/32/bc/b5/32bcb511be0efd2fd8a4b7fdcecf5fde.jpg?auto=compress&cs=tinysrgb&w=400",
-        },
-        {
-          nama: "Batik Wanita Dress",
-          harga: "Rp 4.800.000",
-          satuan: "/paket",
-          rating: "4.9",
-          lokasi: "Solo",
-          img: "https://i.pinimg.com/1200x/ce/31/1a/ce311aed2846f513c58023c921a8068a.jpg?auto=compress&cs=tinysrgb&w=400",
-        },
-        {
-          nama: "Batik Couple",
-          harga: "Rp 7.500.000",
-          satuan: "/paket",
-          rating: "5.0",
-          lokasi: "Yogyakarta",
-          img: "https://i.pinimg.com/736x/19/37/24/193724f506ad0af65bd7555ee997f4ba.jpg?auto=compress&cs=tinysrgb&w=400",
-        },
-        {
-          nama: "Kain Batik Premium",
-          harga: "Rp 5.500.000",
-          satuan: "/paket",
-          rating: "4.9",
-          lokasi: "Solo",
-          img: "https://i.pinimg.com/736x/23/67/06/2367067ac22f7c5ed543cb804f582fb3.jpg?auto=compress&cs=tinysrgb&w=400",
-        },
+        { nama: "Batik Pria Lengan Panjang", harga: "Rp 4.500.000", satuan: "/paket", rating: "4.9", lokasi: "Yogyakarta", img: "https://i.pinimg.com/1200x/1a/98/2e/1a982e6570ab71b563ca84c095a66608.jpg?auto=compress&cs=tinysrgb&w=400" },
+        { nama: "Batik Pria Lengan Pendek", harga: "Rp 4.000.000", satuan: "/paket", rating: "4.8", lokasi: "Yogyakarta", img: "https://i.pinimg.com/1200x/ff/09/86/ff0986a4de143165d8c07b99cb30eb7e.jpg?auto=compress&cs=tinysrgb&w=400" },
+        { nama: "Batik Wanita Kemeja", harga: "Rp 4.200.000", satuan: "/paket", rating: "4.8", lokasi: "Solo", img: "https://i.pinimg.com/736x/32/bc/b5/32bcb511be0efd2fd8a4b7fdcecf5fde.jpg?auto=compress&cs=tinysrgb&w=400" },
+        { nama: "Batik Wanita Dress", harga: "Rp 4.800.000", satuan: "/paket", rating: "4.9", lokasi: "Solo", img: "https://i.pinimg.com/1200x/ce/31/1a/ce311aed2846f513c58023c921a8068a.jpg?auto=compress&cs=tinysrgb&w=400" },
+        { nama: "Batik Couple", harga: "Rp 7.500.000", satuan: "/paket", rating: "5.0", lokasi: "Yogyakarta", img: "https://i.pinimg.com/736x/19/37/24/193724f506ad0af65bd7555ee997f4ba.jpg?auto=compress&cs=tinysrgb&w=400" },
+        { nama: "Kain Batik Premium", harga: "Rp 5.500.000", satuan: "/paket", rating: "4.9", lokasi: "Solo", img: "https://i.pinimg.com/736x/23/67/06/2367067ac22f7c5ed543cb804f582fb3.jpg?auto=compress&cs=tinysrgb&w=400" },
       ],
     },
   },
 };
+
+/* ---------- CART LOGIC (LOCALSTORAGE) ---------- */
+function getCart() {
+  return JSON.parse(localStorage.getItem("cart")) || [];
+}
+
+function saveCart(cart) {
+  localStorage.setItem("cart", JSON.stringify(cart));
+  updateCartBadge();
+}
+
+function updateCartBadge() {
+  const cart = getCart();
+  const badges = document.querySelectorAll(".cart-badge");
+  badges.forEach((b) => {
+    b.textContent = cart.length;
+    b.style.display = cart.length > 0 ? "flex" : "none";
+  });
+}
+
+function addToCart(nama, harga, img) {
+  let cart = getCart();
+  const existingItem = cart.find((item) => item.nama === nama);
+  if (existingItem) {
+    existingItem.qty += 1;
+  } else {
+    cart.push({ nama, harga, img, qty: 1 });
+  }
+  saveCart(cart);
+  alert(`${nama} berhasil ditambahkan ke keranjang!`);
+}
+
+function removeFromCart(index) {
+  let cart = getCart();
+  cart.splice(index, 1);
+  saveCart(cart);
+  renderCheckout(); 
+}
 
 /* ---------- HELPER ---------- */
 function openWA(pesan) {
@@ -245,10 +114,6 @@ function openWA(pesan) {
     "_blank",
     "noopener",
   );
-}
-
-function pesanProduk(produk, harga) {
-  return `Halo ${STORE},\n\nSaya mau beli produk berikut:\n\nProduk: ${produk}\nHarga: ${harga}\n\nMohon info stok, cara pesan, dan estimasi kirim.\nTerima kasih.`;
 }
 
 function scrollToHash(offset = 130) {
@@ -263,11 +128,7 @@ function scrollToHash(offset = 130) {
 }
 
 function highlightCard(card) {
-  const top =
-    card.getBoundingClientRect().top +
-    window.pageYOffset -
-    window.innerHeight / 2 +
-    80;
+  const top = card.getBoundingClientRect().top + window.pageYOffset - window.innerHeight / 2 + 80;
   window.scrollTo({ top, behavior: "smooth" });
   card.classList.add("highlight");
   setTimeout(() => card.classList.remove("highlight"), 3200);
@@ -294,6 +155,9 @@ function cardHTML(p, kategoriLabel) {
             ${p.lokasi}
           </span>
         </div>
+        <button class="btn btn-accent btn-add-cart" onclick="event.stopPropagation(); addToCart('${p.nama}', '${p.harga}', '${p.img}')">
+          + Keranjang
+        </button>
       </div>
     </div>`;
 }
@@ -325,37 +189,81 @@ function renderCatalog() {
   wrap.innerHTML = html;
 }
 
-/* ---------- STICKY TABS ---------- */
-function initTabs() {
-  const tabs = Array.from(document.querySelectorAll(".tab-btn"));
-  if (!tabs.length) return;
-  const sections = tabs
-    .map((t) => document.getElementById(t.dataset.target))
-    .filter(Boolean);
+/* ---------- RENDER CHECKOUT ---------- */
+function renderCheckout() {
+  const cart = getCart();
+  const container = document.getElementById("cart-items");
+  const totalDisplay = document.getElementById("cart-total");
+  if (!container || !totalDisplay) return;
 
-  tabs.forEach((tab) => {
-    tab.addEventListener("click", () => {
-      const el = document.getElementById(tab.dataset.target);
-      if (!el) return;
-      const top = el.getBoundingClientRect().top + window.pageYOffset - 130;
-      window.scrollTo({ top, behavior: "smooth" });
-      history.replaceState(null, "", `#${tab.dataset.target}`);
-    });
-  });
-
-  function update() {
-    const scrollY = window.pageYOffset + 180;
-    let current = sections[0]?.id;
-    sections.forEach((sec) => {
-      if (sec.offsetTop <= scrollY) current = sec.id;
-    });
-    tabs.forEach((t) =>
-      t.classList.toggle("active", t.dataset.target === current),
-    );
+  if (cart.length === 0) {
+    container.innerHTML = '<p style="text-align:center; color: var(--ink-faint);">Keranjang Anda masih kosong.</p>';
+    totalDisplay.textContent = "Rp 0";
+    return;
   }
 
-  window.addEventListener("scroll", update, { passive: true });
-  update();
+  let html = "";
+  let total = 0;
+
+  cart.forEach((item, index) => {
+    const price = parseInt(item.harga.replace(/[^0-9]/g, ""));
+    total += price * item.qty;
+    html += `
+      <div class="checkout-summary-item">
+        <div style="display: flex; gap: 10px; align-items: center;">
+          <img src="${item.img}" style="width: 60px; height: 60px; object-fit: cover; border-radius: 8px;">
+          <div>
+            <strong>${item.nama}</strong>
+            <div style="font-size: 0.85rem; color: var(--ink-faint);">${item.qty} Paket</div>
+          </div>
+        </div>
+        <div style="text-align: right;">
+          <div style="font-weight: 600;">Rp ${(price * item.qty).toLocaleString("id-ID")}</div>
+          <button onclick="removeFromCart(${index})" style="color: #d9534f; font-size: 0.8rem; margin-top: 5px; border: none; background: none; cursor: pointer; text-decoration: underline;">Hapus</button>
+        </div>
+      </div>
+    `;
+  });
+
+  container.innerHTML = html;
+  totalDisplay.textContent = `Rp ${total.toLocaleString("id-ID")}`;
+  localStorage.setItem("checkout_total", total);
+}
+
+/* ---------- RENDER PAYMENT ---------- */
+function renderPayment() {
+  const total = localStorage.getItem("checkout_total") || "0";
+  const totalDisplay = document.getElementById("payment-total-display");
+  if (totalDisplay) {
+    totalDisplay.textContent = `Rp ${parseInt(total).toLocaleString("id-ID")}`;
+  }
+}
+
+/* ---------- RENDER CONFIRMATION ---------- */
+function renderConfirmation() {
+  const cart = getCart();
+  const itemsContainer = document.getElementById("receipt-items");
+  const totalDisplay = document.getElementById("receipt-total");
+  const paymentDisplay = document.getElementById("receipt-payment");
+  const invoiceId = localStorage.getItem("invoice_id") || "INV-XXXXXX";
+
+  document.getElementById("finalInvoiceId").textContent = invoiceId;
+
+  if (itemsContainer) {
+    let html = "";
+    let total = 0;
+    cart.forEach((item) => {
+      const price = parseInt(item.harga.replace(/[^0-9]/g, ""));
+      total += price * item.qty;
+      html += `<p><span>${item.nama} (${item.qty}x)</span> <strong>Rp ${(price * item.qty).toLocaleString("id-ID")}</strong></p>`;
+    });
+    itemsContainer.innerHTML = html;
+    totalDisplay.textContent = `Rp ${total.toLocaleString("id-ID")}`;
+  }
+
+  if (paymentDisplay) {
+    paymentDisplay.textContent = localStorage.getItem("payment_method") || "-";
+  }
 }
 
 /* ---------- PENCARIAN ---------- */
@@ -366,9 +274,7 @@ function cariKatalog(e) {
   const q = input.value.trim().toLowerCase();
   if (!q) return;
   const cards = Array.from(document.querySelectorAll(".product-card"));
-  const match = cards.find((c) =>
-    c.querySelector("h4").textContent.toLowerCase().includes(q),
-  );
+  const match = cards.find((c) => c.querySelector("h4").textContent.toLowerCase().includes(q));
   if (!match) {
     alert("Produk tidak ditemukan. Coba kata kunci lain.");
     return;
@@ -409,9 +315,7 @@ function initNav() {
 function initWAFloat(msg) {
   const wf = document.getElementById("waFloat");
   if (!wf) return;
-  const text =
-    msg ||
-    `Halo ${STORE}, saya mau tanya-tanya soal produk grosir baju yang tersedia.`;
+  const text = msg || `Halo ${STORE}, saya mau tanya-tanya soal produk grosir baju yang tersedia.`;
   wf.href = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(text)}`;
   wf.target = "_blank";
   wf.rel = "noopener";
@@ -421,10 +325,14 @@ function initWAFloat(msg) {
 document.addEventListener("DOMContentLoaded", () => {
   initNav();
   initWAFloat();
+  updateCartBadge();
 
   const contactForm = document.getElementById("contactForm");
   const searchForm = document.getElementById("searchForm");
   const catalog = document.getElementById("catalog");
+  const checkoutItems = document.getElementById("cart-items");
+  const paymentTotal = document.getElementById("payment-total-display");
+  const confirmItems = document.getElementById("receipt-items");
 
   if (contactForm) contactForm.addEventListener("submit", kirimKontak);
 
@@ -438,15 +346,10 @@ document.addEventListener("DOMContentLoaded", () => {
     scrollToHash(130);
     searchForm?.addEventListener("submit", cariKatalog);
 
-    // MODIFIKASI: Klik produk mengarah ke halaman Checkout
     document.addEventListener("click", (e) => {
       const card = e.target.closest(".product-card");
-      if (card) {
-        // Simpan produk yang dipilih ke localStorage untuk simulasi
-        localStorage.setItem("selected_product", card.dataset.produk);
-        localStorage.setItem("selected_price", card.dataset.harga);
-        // Arahkan ke halaman checkout
-        window.location.href = "checkout.html";
+      if (card && !e.target.closest('.btn-add-cart')) {
+        addToCart(card.dataset.produk, card.dataset.harga, card.querySelector('img').src);
       }
     });
 
@@ -459,11 +362,42 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const ctaWa = document.getElementById("ctaWa");
     if (ctaWa) {
-      ctaWa.href = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(
-        `Halo ${STORE}, saya mau tanya soal produk grosir baju yang tidak ada di katalog.`,
-      )}`;
+      ctaWa.href = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(`Halo ${STORE}, saya mau tanya soal produk grosir baju yang tidak ada di katalog.`)}`;
       ctaWa.target = "_blank";
       ctaWa.rel = "noopener";
     }
   }
+
+  if (checkoutItems) renderCheckout();
+  if (paymentTotal) renderPayment();
+  if (confirmItems) renderConfirmation();
 });
+
+/* ---------- STICKY TABS ---------- */
+function initTabs() {
+  const tabs = Array.from(document.querySelectorAll(".tab-btn"));
+  if (!tabs.length) return;
+  const sections = tabs.map((t) => document.getElementById(t.dataset.target)).filter(Boolean);
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      const el = document.getElementById(tab.dataset.target);
+      if (!el) return;
+      const top = el.getBoundingClientRect().top + window.pageYOffset - 130;
+      window.scrollTo({ top, behavior: "smooth" });
+      history.replaceState(null, "", `#${tab.dataset.target}`);
+    });
+  });
+
+  function update() {
+    const scrollY = window.pageYOffset + 180;
+    let current = sections[0]?.id;
+    sections.forEach((sec) => {
+      if (sec.offsetTop <= scrollY) current = sec.id;
+    });
+    tabs.forEach((t) => t.classList.toggle("active", t.dataset.target === current));
+  }
+
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+}

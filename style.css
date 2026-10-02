@@ -290,6 +290,38 @@ section {
   border-color: var(--accent);
 }
 
+.cart-nav-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: var(--ink);
+  margin-left: 15px;
+  transition: color 0.15s;
+}
+.cart-nav-icon:hover {
+  color: var(--accent);
+}
+.cart-nav-icon svg {
+  width: 24px;
+  height: 24px;
+}
+.cart-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: var(--accent);
+  color: var(--ink);
+  font-size: 10px;
+  font-weight: 800;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-family: "Sora", sans-serif;
+}
+
 .hamburger {
   display: none;
   width: 42px;
@@ -975,6 +1007,14 @@ section {
   }
 }
 
+.btn-add-cart {
+  margin-top: 10px;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  width: 100%;
+}
+
 /* =========================================================
    CTA BOTTOM
    ========================================================= */
@@ -1268,7 +1308,7 @@ footer p {
 }
 
 /* =========================================================
-   CHECKOUT, PAYMENT, CONFIRMATION PAGES (Tambahan Baru)
+   CHECKOUT, PAYMENT, CONFIRMATION PAGES
    ========================================================= */
 .checkout-container {
   display: grid;
@@ -1292,6 +1332,7 @@ footer p {
 .checkout-summary-item {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 15px;
   padding-bottom: 15px;
   border-bottom: 1px dashed var(--border);
@@ -1372,4 +1413,37 @@ footer p {
 .success-icon svg {
   width: 40px;
   height: 40px;
+}
+
+.payment-options {
+  text-align: left;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.payment-options h4 {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+.payment-options label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.payment-options label:hover {
+  background: var(--bg-alt);
+}
+.payment-options input[type="radio"] {
+  accent-color: var(--accent);
+  width: 18px;
+  height: 18px;
 }
